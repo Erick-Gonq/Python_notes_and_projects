@@ -125,6 +125,7 @@ print(a == b)   # False
 print(a != b)   # True
 print(a > b)    # True
 print(a < b)    # False
+
 ```
 
 ---
@@ -139,6 +140,24 @@ print(x and y)   # False
 print(x or y)    # True
 print(not x)     # False
 ```
+
+##Truth Table Summary
+
+| Expression                          | Evaluation                     | Result  |
+|-------------------------------------|--------------------------------|---------|
+| `(a == b)`                          | 32 == 14                       | False   |
+| `(a != b)`                          | 32 != 14                       | True    |
+| `(a == b) and (a != b)`             | False AND True                 | False   |
+| `(a == b) or (a != b)`              | False OR True                  | True    |
+| `not(a == b)`                       | not(False)                     | True    |
+| `not(a != b)`                       | not(True)                      | False   |
+| `not(a == b) and (a != b)`          | True AND True                  | True    |
+| `not(a != b) or (a == b)`           | False OR False                 | False   |
+| `(a > b) and (a < b)`               | True AND False                 | False   |
+| `(a > b) or (a < b)`                | True OR False                  | True    |
+| `not((a > b) and (a < b))`          | not(False)                     | True    |
+| `not((a > b) or (a < b))`           | not(True)                      | False   |
+
 
 ---
 
