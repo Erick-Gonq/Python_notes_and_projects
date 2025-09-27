@@ -168,7 +168,7 @@ Lists can store multiple values, including mixed types.
 ```python
 numbers = [12, 43, 23, 10, 52]
 print(numbers[0])     # First element
-print(numbers[1:3])   # Slice
+print(numbers[1:3])   # Slice, does not include the las position in the range
 print(numbers * 2)    # Repetition
 
 mixed = ["house", 23, False, "hello", 23.87]
