@@ -61,7 +61,7 @@ print(abs(42))   # 42
 print(abs(-42))  # 42
 ```
 
-⚠️ **Note on rounding:**  
+ **Note on rounding:**  
 Python uses **Banker's rounding**. Values ending in `.5` are rounded to the nearest even integer.
 
 ```python
@@ -87,7 +87,7 @@ print("Hi! " * 5)
 len("house")   # 5
 ```
 
-⚠️ **Mixing strings and numbers without conversion will cause an error:**
+ **Mixing strings and numbers without conversion will cause an error:**
 ```python
 print("Age: " + str(25))   # Correct
 ```
@@ -191,7 +191,7 @@ Tuples are **immutable** sequences.
 ```python
 t = (1, 2, 3, 4, 5)
 print(t[2])      # 3
-t[2] = 21        # ❌ Error: cannot modify a tuple
+t[2] = 21        # Error: cannot modify a tuple
 ```
 
 ---
@@ -235,7 +235,7 @@ s = str(i)     # "4"
 
 ---
 
-# ✅ Summary
+# Summary
 
 - Arithmetic, comparison, logical, and assignment operators are fundamental in Python.
 - Strings allow concatenation, repetition, and length calculation.
